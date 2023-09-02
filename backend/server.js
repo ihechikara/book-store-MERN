@@ -2,6 +2,8 @@ import express from "express"
 import dotenv from "dotenv"
 import mongoose from "mongoose"
 
+import { Book } from "./models/bookModel"
+
 dotenv.config()
 
 const PORT = process.env.PORT
